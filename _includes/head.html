@@ -10,7 +10,8 @@
     <!-- Custom CSS & Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
     <style>
       {% capture inlineCSS %}
-        {% include app.scss %}
+      {% include css/bootstrap.min.css %}
+      {% include css/agency.css %}
       {% endcapture %}
 
       {{ inlineCSS | scssify }}
