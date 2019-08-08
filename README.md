@@ -1,9 +1,30 @@
-# Starter kit for [Alembic](https://alembic.darn.es/)
+Agency Jekyll theme
+====================
 
-This is a very simple starting point if you wish to use Alembic [as a Jekyll theme gem](https://alembic.darn.es/#as-a-jekyll-theme) or as a [GitHub Pages remote theme](https://github.com/daviddarnes/alembic-kit/tree/remote-theme) (see `remote-theme` branch).
+Agency theme based on [Agency bootstrap theme ](https://startbootstrap.com/template-overviews/agency/)
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/daviddarnes/alembic-kit)
+# How to use
 
-or
+###Portfolio 
 
-**[Download the GitHub Pages kit](https://github.com/daviddarnes/alembic-kit/archive/remote-theme.zip)**
+Portfolio projects are in '/_posts'
+
+Images are in '/img/portfolio'
+
+###About
+
+Images are in '/img/about/'
+
+###Team
+
+Team members and info are in '_config.yml'
+
+Images are in '/img/team/'
+
+
+# Demo
+
+View this jekyll theme in action [here](https://y7kim.github.io/agency-jekyll-theme)
+
+=========
+For more details, read [documentation](http://jekyllrb.com/)

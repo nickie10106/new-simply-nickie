@@ -1,55 +1,65 @@
-# Set theme
-theme: alembic-jekyll-theme
-
-# File excludes
-exclude:
-- README.md
-- Gemfile
-- Gemfile.lock
-
-# Set plugins
-plugins:
-- jekyll-sitemap
-- jekyll-mentions
-- jekyll-paginate
-- jekyll-seo-tag
-- jekyll-redirect-from
-- jekyll-default-layout
-- jekyll-feed
-- jemoji
+url: https://jolly-montalcini-8c43e6.netlify.com
+baseurl: /
 
 # Site settings
-url: 'https://mydomain.com'
-baseurl: ''
-title: 'My website'
-description: 'This is my new website'
+title: Awesome Title
+email: nickie10106@gmail.com
+description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
+
+
+# Team names, titles and social links
+people:
+- name: Simply Nickie
+  pic: 1
+  position: Freelance Content Creator
+  social:
+    - title: twitter
+      url: #
+    - title: facebook
+      url: #
+    - title: stack-overflow
+      url: #
+
+- name: Simply Confessions
+  pic: 2
+  position: Blog
+  social:
+    - title: twitter
+      url: #
+    - title: facebook
+      url: #
+    - title: linkedin
+      url: #
+
+- name: Diana Petersen
+  pic: 3
+  position: Lead Developer
+  social:
+    - title: twitter
+      url: #
+    - title: facebook
+      url: #
+    - title: google-plus
+      url: #
+
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  - title: twitter
+    url: http://twitter.com/jekyllrb
+  - title: facebook
+    url:
+  - title: stack-overflow
+    url: http://stackoverflow.com/questions/tagged/jekyll
+  - title: bitbucket
+    url: http://bitbucket.org/jekyll
+  - title: github
+    url: http://github.com/jekyll
+
+# Postal address (add as many lines as necessary)
+address:
+  - line: 3481 Melrose Place
+  - line: Beverly Hills, CA 90210
+
+# Build settings
+markdown: kramdown
 permalink: pretty
-logo: "https://www.gravatar.com/avatar/6c0377abcf4da91cdd35dea4554b2a4c?s=52"
-
-# Pagination
-paginate: 5
-paginate_path: blog/page:num
-
-# Header nav
-navigation_header:
-- title: Home
-  url: /
-- title: About
-  url: /about/
-- title: Blog
-  url: /blog/
-
-# Footer nav
-navigation_footer:
-- title: Back to top
-  url: "#top"
-
-# Collections
-collections:
-  posts:
-    title: Posts
-    output: true
-    description: "My thoughts and ideas"
-    feature_text: |
-      Welcome to my blog
-    feature_image: "https://picsum.photos/2560/600?image=866"
