@@ -267,7 +267,7 @@ fieldset[disabled] .btn-xl.active {
 
 header {
     text-align: center;
-    color: #fff;
+    color: # e5a1b9;
     background-attachment: scroll;
     background-image: url('/img/header-bg.jpg');
     background-position: center center;
@@ -285,7 +285,7 @@ header .intro-text {
 
 header .intro-text .intro-lead-in {
     margin-bottom: 25px;
-    font-family: {{ site.data.template.font.secondary }};
+    font-family: Quicksand', sans-serif;
     font-size: 22px;
     font-style: italic;
     line-height: 22px;
@@ -294,7 +294,7 @@ header .intro-text .intro-lead-in {
 header .intro-text .intro-heading {
     margin-bottom: 25px;
     text-transform: uppercase;
-    font-family: {{ site.data.template.font.primary }};
+    font-family: Quicksand', sans-serif;
     font-size: 50px;
     font-weight: 700;
     line-height: 50px;
